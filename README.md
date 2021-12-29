@@ -78,10 +78,10 @@ L’emissor final de les dades proporciona les següents dades vàlides per l’
 NIF | 23362162G | Grado II Nivel 2 | Reconocido Grado y nivel | 06/04/2010 | Firmada
 NIF | 8217183L | Grado III Nivel 2 | Reconocido Grado y nivel | 06/07/2010 | Recurrida
 NIF | 8214853N | | Reconocimiento en trámite| | 
-NIF | 8217571Q | Grado III Nivel 2 vReconocido Grado y nivel | 17/03/2011 | Firmada
+NIF | 8217571Q | Grado III Nivel 2 |Reconocido Grado y nivel | 17/03/2011 | Firmada
 NIF | 80078671P | Grado I Nivel 2 | Reconocido Grado y nivel | 27/10/2011 | Firmada
 NIF | 76259751P | Grado III Nivel 2 | Reconocido Grado y nivel | 02/03/2011 | Firmada
-NIF | 08209236F | Grado III Nivel 2 vReconocido Grado y nivel | 27/10/2011 | Firmada
+NIF | 08209236F | Grado III Nivel 2 |Reconocido Grado y nivel | 27/10/2011 | Firmada
 NIE | X2819703H | Grado III Nivel 2 | Reconocido Grado y nivel | 12/03/2012 | Firmada
 NIE | X5771569H | Grado III Nivel 2 vReconocido Grado y nivel | 12/03/2012 | Firmada
 Pasaporte | A4508244702 | Grado III Nivel 2 | Reconocido Grado y nivel | 12/03/2012 | Firmada
