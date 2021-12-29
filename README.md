@@ -50,7 +50,6 @@ consulta. Així, cal informar l’element Funcionario del bloc de dades genèriq
 | _Element_ | _Descripció_ |
 | --- | --- |
 //DatosGenericos/Titular/TipoDocumentacion | Tipus de documentació (NIF, Pasaporte, NIE).
-
 //DatosGenericos/Titular/Documentacion | Documentació.
 
 #### 3.1.2 Resposta – dades específiques
@@ -61,24 +60,16 @@ consulta. Així, cal informar l’element Funcionario del bloc de dades genèriq
 
 | _Element_ | _Descripció_ |
 | --- | --- |
-respostaConsultaNivellGrauDependencia/Resolucion | Bloc de dades corresponent a la informació sobre la resolució de dependència.
-
-respostaConsultaNivellGrauDependencia/Resolucion/NumeroExpediente | Número d’expedient.
-
-respostaConsultaNivellGrauDependencia/Resolucion/GradoyNivel | Camp que especifica el grau i nivell de dependència:<ul><li>Grado III Nivel 2</li><li>Grado III Nivel 1</li><li>Grado II Nivel 2</li><li>Grado II Nivel 1</li><li>Grado I Nivel 2</li><li>Grado I Nivel 1</li></ul>
-
-
-respostaConsultaNivellGrauDependencia/Resolucion/Tipo | Tipus de dependència reconeguda:<ul><li>Grado y Nivel</li><li>Grado y Nivel (DF1)</li></ul></br></br>La diferència de Grado y Nivel (DF1) respecte a Grado y Nivel és que pels graus i nivells que encara no apliquen, degut a la progressivitat que marca la Llei, no se’ls resol el grau i nivell com a tal sinó que se li aplica la Disposició Final Primera de manera que se li reconeix la seva dependència però no se pot seguir gestionant les prestacions donat que el seu grau encara no ha entrat en vigor.
-
-respostaConsultaNivellGrauDependencia/Resolucion/FechaResolucion | Data en que se li reconeix el grau i nivell de dependència al titular consultat.
-
-respostaConsultaNivellGrauDependencia/Resolucion/EstadoResolucion | Especifica l’estat de la resolució:<ul><li>Firmada</li> <li>Recurrida: la resolució ha estat prèviament signada, és vigent però el recurs o revisió encara no ha estat resolt.</li> <li>En tramite</li></ul>
-
-
-respostaConsultaNivellGrauDependencia/resultat/codiResultat | Codi de resultat:<ul><li>0000 : reconegut grau i nivell.</li><li>0001 : reconegut grau i nivell (DF1).</li>
+//respostaConsultaNivellGrauDependencia/Resolucion | Bloc de dades corresponent a la informació sobre la resolució de dependència.
+//respostaConsultaNivellGrauDependencia/Resolucion/NumeroExpediente | Número d’expedient.
+//respostaConsultaNivellGrauDependencia/Resolucion/GradoyNivel | Camp que especifica el grau i nivell de dependència:<ul><li>Grado III Nivel 2</li><li>Grado III Nivel 1</li><li>Grado II Nivel 2</li><li>Grado II Nivel 1</li><li>Grado I Nivel 2</li><li>Grado I Nivel 1</li></ul>
+//respostaConsultaNivellGrauDependencia/Resolucion/Tipo | Tipus de dependència reconeguda:<ul><li>Grado y Nivel</li><li>Grado y Nivel (DF1)</li></ul></br></br>La diferència de Grado y Nivel (DF1) respecte a Grado y Nivel és que pels graus i nivells que encara no apliquen, degut a la progressivitat que marca la Llei, no se’ls resol el grau i nivell com a tal sinó que se li aplica la Disposició Final Primera de manera que se li reconeix la seva dependència però no se pot seguir gestionant les prestacions donat que el seu grau encara no ha entrat en vigor.
+//respostaConsultaNivellGrauDependencia/Resolucion/FechaResolucion | Data en que se li reconeix el grau i nivell de dependència al titular consultat.
+//respostaConsultaNivellGrauDependencia/Resolucion/EstadoResolucion | Especifica l’estat de la resolució:<ul><li>Firmada</li> <li>Recurrida: la resolució ha estat prèviament signada, és vigent però el recurs o revisió encara no ha estat resolt.</li> <li>En tramite</li></ul>
+//respostaConsultaNivellGrauDependencia/resultat/codiResultat | Codi de resultat:<ul><li>0000 : reconegut grau i nivell.</li><li>0001 : reconegut grau i nivell (DF1).</li>
 <li>0002 : reconeixement en tràmit.</li><li>0233 : no consta informació per aquest titular.</li><li>0502 : error realitzant la consulta.</li></ul>
 
-respostaConsultaNivellGrauDependencia/resultat/descripcio | Descripció del resultat.
+//respostaConsultaNivellGrauDependencia/resultat/descripcio | Descripció del resultat.
 
 ## 4 Joc de proves
 
