@@ -3,15 +3,15 @@ Documentació d'integració del servei Dependència del Consorci AOC.
 
 # **Índex** #
 
-1. [Introducció]
-2. [Transmissions de dades disponibles]
-3. [Missatgeria del servei]
-   1. [Consulta de nivell i grau de dependència (GRAU_DEPENDENCIA)]
-      1. [Petició – dades genèriques]
-      2. [Petició – dades específiques]
-   2. [Joc de proves]
+1. [Introducció](#1)
+2. [Transmissions de dades disponibles](#2)
+3. [Missatgeria del servei](#3)
+   1. [Consulta de nivell i grau de dependència (GRAU_DEPENDENCIA)](#3.1)
+      1. [Petició – dades genèriques](#3.1.1)
+      2. [Petició – dades específiques](#3.1.2)
+4. [Joc de proves](#4)
 
-## 1 Introducció
+## 1 Introducció <a name="1"></a>
 
 Aquest document detalla la missatgeria associada al servei de consulta de nivell i grau de dependència.
 
@@ -19,7 +19,7 @@ Per a poder realitzar la integració cal conèixer prèviament la següent docum
 
 <ul><li>Document de Missatgeria Genèrica de la PCI del Consorci AOC.</li></ul>
 
-## 2 Transmissions de dades disponibles
+## 2 Transmissions de dades disponibles <a name="2"></a>
 
 Les dades disponibles a través del servei són les que es presenten a continuació:
 
@@ -33,7 +33,7 @@ Totes les consultes del producte tenen disponible la versió imprimible del resu
 format PDF. Per més detalls adreceu-vos a l’apartat Extensions de missatgeria del document de
 missatgeria genèrica.
 
-## 3 Missatgeria dels serveis
+## 3 Missatgeria dels serveis <a name="3"></a>
 
 A continuació es detalla la missatgeria corresponent al bloc de dades específiques de les modalitats
 de consum del producte.
@@ -43,16 +43,16 @@ L’emissor de les dades requereix que s’informin les dades del funcionari que
 consulta. Així, cal informar l’element Funcionario del bloc de dades genèriques:
 /Peticion/Funcionario i //SolicitudTransmision/DatosGenericos/Solicitante/Funcionario.
 ```
-### 3.1 Consulta de nivell i grau de dependència
+### 3.1 Consulta de nivell i grau de dependència <a name="3.1"></a>
 
-#### 3.1.1 Petició – dades genèriques
+#### 3.1.1 Petició – dades genèriques <a name="3.1.1"></a>
 
 | _Element_ | _Descripció_ |
 | --- | --- |
 //DatosGenericos/Titular/TipoDocumentacion | Tipus de documentació (NIF, Pasaporte, NIE).
 //DatosGenericos/Titular/Documentacion | Documentació.
 
-#### 3.1.2 Resposta – dades específiques
+#### 3.1.2 Resposta – dades específiques <a name="3.1.2"></a>
 
 <p align="center">
 <img align="center" src="img/3.1.2.png" />
@@ -69,13 +69,12 @@ consulta. Així, cal informar l’element Funcionario del bloc de dades genèriq
 //respostaConsultaNivellGrauDependencia/resultat/codiResultat | Codi de resultat:<ul><li>0000 : reconegut grau i nivell.</li><li>0001 : reconegut grau i nivell (DF1).</li><li>0002 : reconeixement en tràmit.</li><li>0233 : no consta informació per aquest titular.</li><li>0502 : error realitzant la consulta.</li></ul>
 //respostaConsultaNivellGrauDependencia/resultat/descripcio | Descripció del resultat.
 
-## 4 Joc de proves
+## 4 Joc de proves <a name="4"></a>
 
 L’emissor final de les dades proporciona les següents dades vàlides per l’entorn de pre-producció:
 
 | _Tipus_ | _Documentació_ | _Grau i nivell_ | _Tipus_ | _Data resolució_ | _Estat_ |
 | --- | --- | --- | --- | --- | --- |
-
 NIF | 23362162G | Grado II Nivel 2 | Reconocido Grado y nivel | 06/04/2010 | Firmada
 NIF | 8217183L | Grado III Nivel 2 | Reconocido Grado y nivel | 06/07/2010 | Recurrida
 NIF | 8214853N | | Reconocimiento en trámite| | 
