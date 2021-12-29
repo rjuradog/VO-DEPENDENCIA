@@ -85,8 +85,8 @@ NIF | 08209236F | Grado III Nivel 2 |Reconocido Grado y nivel | 27/10/2011 | Fir
 NIE | X2819703H | Grado III Nivel 2 | Reconocido Grado y nivel | 12/03/2012 | Firmada
 NIE | X5771569H | Grado III Nivel 2 vReconocido Grado y nivel | 12/03/2012 | Firmada
 Pasaporte | A4508244702 | Grado III Nivel 2 | Reconocido Grado y nivel | 12/03/2012 | Firmada
-Pasaporte | A4512182100 | Grado III Nivel 2 vReconocido Grado y nivel | 12/03/2012 | Firmada
-NIF | 33916710J | Grado I Nivel 2 vReconocido Grado y nivel (DF1) | 01/01/2009 | Firmada
+Pasaporte | A4512182100 | Grado III Nivel 2 | Reconocido Grado y nivel | 12/03/2012 | Firmada
+NIF | 33916710J | Grado I Nivel 2 |Reconocido Grado y nivel (DF1) | 01/01/2009 | Firmada
 NIF | 35269874H | Grado I Nivel 2 | Reconocido Grado y nivel (DF1) | 28/04/2010 | Firmada
 NIF | 24078125T | Grado I Nivel 2 | Reconocido Grado y nivel (DF1) | 29/04/2010 | Firmada
 NIF | 23428734Z | Grado I Nivel 2 | Reconocido Grado y nivel (DF1) | 29/04/2010 | Firmada
